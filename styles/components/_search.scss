@@ -1,0 +1,13 @@
+.search {
+  &-form {
+    @apply flex flex-row items-end pl-10;
+  }
+
+  &-input {
+    @apply inline-block h-10 border-b-2 border-black;
+  }
+
+  &-logo {
+    @apply text-5xl;
+  }
+}

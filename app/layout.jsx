@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import '@/styles/global.scss';
@@ -13,10 +14,18 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true}>
+      <body>
         <Header />
         <main>{children}</main>
         <Footer />
+        <script
+          type="module"
+          src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+          nomodule
+          src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
       </body>
     </html>
   );

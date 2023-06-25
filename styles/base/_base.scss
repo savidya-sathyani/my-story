@@ -6,20 +6,9 @@
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(230, 126, 34, 0.5);
 }
 
 html {
-  /* calculation = 10px(our required font size) / 16px(default browser font size) * 100% */
-  /**
-  Otherwise if we used fixed pixel size here, 
-  when user increase their font size in the browser that will not be affected. 
-  That is a major accessibility issue 
-   */
-  /**
-  Default browser font size is 16px = 1rem
-  now 1rem = 10px 
-  */
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -29,6 +18,10 @@ body {
   font-family: 'Inter', sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
   overflow-x: hidden;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
 }
