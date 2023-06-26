@@ -11,8 +11,8 @@ export const gallery = [
 ];
 
 export const footerGallery = [
-  {
-    path: '',
-    des: '',
-  },
+  { name: 'footer1.JPG', des: 'Footer Item 1' },
+  { name: 'footer2.JPG', des: 'Footer Item 1' },
+  { name: 'footer3.JPG', des: 'Footer Item 1' },
+  { name: 'footer4.JPG', des: 'Footer Item 1' },
 ];

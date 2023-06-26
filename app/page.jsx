@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { Fragment } from 'react';
-import { gallery } from '@/data/get-images';
+import { gallery, footerGallery } from '@/data/get-images';
 import { reviews } from '@/data/get-reviews';
 
 const Home = () => {
@@ -152,6 +152,23 @@ const Home = () => {
                 src={`/assets/images/gallery/${image.name}`}
                 width={300}
                 height={300}
+                alt={`${image.des}`}
+              />
+            </figure>
+          ))}
+        </div>
+      </section>
+      <section className="last container">
+        <div className="last-line">
+          <h1>More from my life</h1>
+        </div>
+        <div className="last-gallery">
+          {footerGallery.map((image) => (
+            <figure key={image.name} class="gallery-item">
+              <Image
+                src={`/assets/images/footer/${image.name}`}
+                width={400}
+                height={400}
                 alt={`${image.des}`}
               />
             </figure>
