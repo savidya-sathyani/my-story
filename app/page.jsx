@@ -29,7 +29,7 @@ const Home = () => {
         </div>
       </section>
       <section className="tagline">
-        <div class="custom-shape divider-tagline">
+        <div className="custom-shape divider-tagline">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ const Home = () => {
           >
             <path
               d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
+              className="shape-fill"
             ></path>
           </svg>
         </div>
@@ -49,7 +49,7 @@ const Home = () => {
         <p>I PROMISE YOU WON&apos;T REGRET IT.</p>
       </section>
       <section className="myself">
-        <div class="custom-shape divider-myself">
+        <div className="custom-shape divider-myself">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ const Home = () => {
           >
             <path
               d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
+              className="shape-fill"
             ></path>
           </svg>
         </div>
@@ -137,7 +137,7 @@ const Home = () => {
                   height={50}
                 />
                 <blockquote>&ldquo;{review.message}&rdquo;</blockquote>
-                <span class="testimonial-name">
+                <span className="testimonial-name">
                   &mdash; {review.name} &#91;{review.relation}&#93;
                 </span>
               </figure>
@@ -146,7 +146,7 @@ const Home = () => {
         </div>
         <div className="gallery">
           {gallery.map((image) => (
-            <figure key={image.name} class="gallery-item">
+            <figure key={image.name} className="gallery-item">
               <Image
                 className="gallery-img"
                 src={`/assets/images/gallery/${image.name}`}
@@ -164,14 +164,14 @@ const Home = () => {
         </div>
         <div className="last-gallery">
           {footerGallery.map((image) => (
-            <figure key={image.name} class="item-card">
+            <figure key={image.name} className="item-card">
               <Image
                 src={`/assets/images/footer/${image.name}`}
                 width={400}
                 height={400}
                 alt={`${image.des}`}
               />
-              <p class="photo-desc">{image.description}</p>
+              <p className="photo-desc">{image.description}</p>
             </figure>
           ))}
         </div>
