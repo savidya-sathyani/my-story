@@ -164,13 +164,14 @@ const Home = () => {
         </div>
         <div className="last-gallery">
           {footerGallery.map((image) => (
-            <figure key={image.name} class="gallery-item">
+            <figure key={image.name} class="item-card">
               <Image
                 src={`/assets/images/footer/${image.name}`}
                 width={400}
                 height={400}
                 alt={`${image.des}`}
               />
+              <p class="photo-desc">{image.description}</p>
             </figure>
           ))}
         </div>

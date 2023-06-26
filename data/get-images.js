@@ -11,8 +11,27 @@ export const gallery = [
 ];
 
 export const footerGallery = [
-  { name: 'footer1.JPG', des: 'Footer Item 1' },
-  { name: 'footer2.JPG', des: 'Footer Item 1' },
-  { name: 'footer3.JPG', des: 'Footer Item 1' },
-  { name: 'footer4.JPG', des: 'Footer Item 1' },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer2.JPG',
+    des: 'Footer Item 2',
+    description:
+      'Moments before I get to see some elephants in Udawalawa National Park, Sri Lanka.',
+  },
+  {
+    name: 'footer3.JPG',
+    des: 'Footer Item 3',
+    description: 'Got lost in greenery in Yala, Sri Lanka.',
+  },
+  {
+    name: 'footer4.JPG',
+    des: 'Footer Item 4',
+    description:
+      'Soaking in the magnificent view of the Laxapana Waterfall, Sri Lanka',
+  },
 ];

@@ -237,3 +237,27 @@
     @apply grid grid-cols-4 gap-10 p-7;
   }
 }
+
+.item-card {
+  @apply relative cursor-pointer;
+
+  .photo-desc {
+    @apply absolute z-10 flex flex-col justify-center items-center text-3xl text-center text-white opacity-0 w-full h-full p-10 transition-all ease-in;
+
+    left: 50%;
+    transform: translate(-50%, -100%);
+
+    &:hover {
+      @apply opacity-100;
+    }
+  }
+
+  &:after {
+    content: '';
+    @apply absolute w-full h-full top-0 left-0 bg-gray-600 opacity-0;
+
+    &:hover {
+      @apply opacity-80;
+    }
+  }
+}
