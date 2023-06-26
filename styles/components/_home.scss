@@ -1,0 +1,142 @@
+.hero {
+  @apply w-full flex flex-row;
+
+  &-picture {
+    @apply w-1/2  z-20;
+  }
+
+  &-text {
+    @apply z-20 w-1/2 flex flex-col font-dosis mt-48;
+
+    h1 {
+      @apply text-7xl tracking-wider mb-10;
+    }
+
+    p {
+      @apply w-3/4 text-2xl tracking-wide;
+    }
+  }
+}
+
+.tagline {
+  height: 500px;
+
+  @apply relative bg-orange-100 m-auto flex flex-col justify-center items-center -top-96;
+
+  h1 {
+    @apply z-10 text-5xl tracking-wider text-center mb-10 mt-64;
+  }
+
+  p {
+    @apply z-10 text-xl tracking-wider;
+  }
+}
+
+.myself {
+  height: 600px;
+  @apply relative bg-green-100 m-auto flex flex-row justify-center items-center -top-96;
+
+  &-description {
+    @apply w-1/2 flex flex-col justify-center items-end;
+
+    h1 {
+      @apply z-10 text-5xl tracking-wider text-center mb-10;
+    }
+
+    h2 {
+      @apply z-10 text-lg tracking-wider text-center;
+    }
+
+    p {
+      @apply z-10 w-1/2 text-2xl tracking-wider text-right;
+    }
+
+    button {
+      position: relative;
+      padding: 12px;
+      margin-top: 20px;
+      letter-spacing: 0.05em;
+      transition: color 0.5s, transform 0.2s, background-color 0.2s;
+      outline: none;
+      background-color: transparent;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 3px solid black;
+        transition: opacity 0.3s, border 0.3s;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: scaleX(1.1) scaleY(1.3);
+        transition: transform 0.3s, opacity 0.3s;
+      }
+
+      &:active {
+        transform: translateY(3px);
+      }
+
+      &:hover {
+        background-color: transparent;
+        box-shadow: none;
+
+        &:before {
+          opacity: 0;
+        }
+
+        &:after {
+          opacity: 1;
+          transform: scaleX(1) scaleY(1);
+        }
+      }
+    }
+  }
+
+  &-picture {
+    @apply z-10 w-1/2 py-16 px-10;
+  }
+}
+
+.custom-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.divider-tagline {
+  svg {
+    position: relative;
+    display: block;
+    width: calc(109% + 1.3px);
+    height: 225px;
+  }
+  .shape-fill {
+    fill: #ffffff;
+  }
+}
+
+.divider-myself {
+  svg {
+    position: relative;
+    display: block;
+    width: calc(114% + 1.3px);
+    height: 198px;
+    transform: rotateY(180deg);
+  }
+  .shape-fill {
+    fill: #ffedd5;
+  }
+}

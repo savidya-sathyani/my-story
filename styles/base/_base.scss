@@ -15,10 +15,10 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  line-height: 1;
   font-weight: 400;
   overflow-x: hidden;
+
+  @apply flex flex-col font-dosis gap-16;
 }
 
 .container {
