@@ -2,6 +2,8 @@
 
 import Image from 'next/image';
 import { Fragment } from 'react';
+import { gallery } from '@/data/get-images';
+import { reviews } from '@/data/get-reviews';
 
 const Home = () => {
   return (
@@ -84,6 +86,76 @@ const Home = () => {
             height={300}
             alt="Me"
           />
+        </div>
+      </section>
+      <section className="catalog container">
+        <div className="catalog-image">
+          <Image
+            src={'/assets/images/cat1.JPG'}
+            alt="Life"
+            width={400}
+            height={100}
+          />
+        </div>
+        <div className="catalog-text bg-cyan-100">
+          <h1>L I F E</h1>
+        </div>
+        <div className="catalog-image">
+          <Image
+            src={'/assets/images/cat2.JPG'}
+            alt="Life"
+            width={400}
+            height={100}
+          />
+        </div>
+        <div className="catalog-text bg-pink-100">
+          <h1>C A R E E R</h1>
+        </div>
+        <div className="catalog-image">
+          <Image
+            src={'/assets/images/cat3.JPG'}
+            alt="Life"
+            width={400}
+            height={100}
+          />
+        </div>
+        <div className="catalog-text bg-orange-100">
+          <h1>T R A V E L</h1>
+        </div>
+      </section>
+      <section className="reviews">
+        <div className="testimonial-container">
+          <span className="testimonial-subtext">Testimonials</span>
+          <h1>Everybody loves me! Here are some proof.</h1>
+          <div className="testimonials">
+            {reviews.map((review) => (
+              <figure key={review.id}>
+                <Image
+                  src={`/assets/images/reviews/${review.picture}`}
+                  alt={`Picture of ${review.name}`}
+                  width={50}
+                  height={50}
+                />
+                <blockquote>&ldquo;{review.message}&rdquo;</blockquote>
+                <span class="testimonial-name">
+                  &mdash; {review.name} &#91;{review.relation}&#93;
+                </span>
+              </figure>
+            ))}
+          </div>
+        </div>
+        <div className="gallery">
+          {gallery.map((image) => (
+            <figure key={image.name} class="gallery-item">
+              <Image
+                className="gallery-img"
+                src={`/assets/images/gallery/${image.name}`}
+                width={300}
+                height={300}
+                alt={`${image.des}`}
+              />
+            </figure>
+          ))}
         </div>
       </section>
     </Fragment>

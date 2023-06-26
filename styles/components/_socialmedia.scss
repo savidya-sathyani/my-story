@@ -3,5 +3,9 @@
 
   &-logo {
     @apply text-3xl;
+
+    &:hover {
+      transform: scale(1.1, 1.1);
+    }
   }
 }
