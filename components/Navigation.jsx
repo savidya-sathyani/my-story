@@ -1,10 +1,11 @@
 'use client';
 
+import { NavigationData } from '@/context/NavigationContext';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 
 const Navigation = () => {
-  const [active, setActive] = useState('home');
+  const { active, setActive } = useContext(NavigationData);
 
   const handleClick = (event) => {
     setActive(event.target.id);

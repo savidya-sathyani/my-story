@@ -1,11 +1,22 @@
 'use client';
 
 import Image from 'next/image';
-import { Fragment } from 'react';
+import { Fragment, useContext } from 'react';
+import { useRouter } from 'next/navigation';
 import { gallery, footerGallery } from '@/data/get-images';
 import { reviews } from '@/data/get-reviews';
+import { NavigationData } from '@/context/NavigationContext';
 
 const Home = () => {
+  const router = useRouter();
+  const { setActive } = useContext(NavigationData);
+
+  const handleClick = (e) => {
+    const id = e.target.id;
+    router.push(`/${id}`);
+    setActive(id);
+  };
+
   return (
     <Fragment>
       <section className="hero container">
@@ -97,7 +108,11 @@ const Home = () => {
             height={100}
           />
         </div>
-        <div className="catalog-text bg-orange-100">
+        <div
+          id="life"
+          className="catalog-text bg-orange-100"
+          onClick={(e) => handleClick(e)}
+        >
           <h1>L I F E</h1>
         </div>
         <div className="catalog-image">
@@ -108,7 +123,11 @@ const Home = () => {
             height={100}
           />
         </div>
-        <div className="catalog-text bg-orange-100">
+        <div
+          id="career"
+          className="catalog-text bg-orange-100"
+          onClick={(e) => handleClick(e)}
+        >
           <h1>C A R E E R</h1>
         </div>
         <div className="catalog-image">
@@ -119,7 +138,11 @@ const Home = () => {
             height={100}
           />
         </div>
-        <div className="catalog-text bg-orange-100">
+        <div
+          id="travel"
+          className="catalog-text bg-orange-100"
+          onClick={(e) => handleClick(e)}
+        >
           <h1>T R A V E L</h1>
         </div>
       </section>

@@ -146,7 +146,7 @@
   @apply relative grid grid-cols-3 gap-5 -top-96 my-5;
 
   &-text {
-    @apply relative flex flex-col justify-center items-center text-3xl text-gray-700 transition-all ease-in-out;
+    @apply relative flex flex-col justify-center items-center text-3xl text-gray-700 transition-all ease-in-out cursor-pointer;
 
     &:after {
       content: '';
