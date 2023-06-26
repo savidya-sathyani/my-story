@@ -1,3 +1,11 @@
-.header {
-  @apply w-full flex flex-row justify-between items-center;
+.header-container {
+  @apply flex flex-col justify-center items-center;
+
+  .header {
+    @apply w-full flex flex-row justify-between items-center;
+  }
+
+  .nav {
+    @apply w-1/4;
+  }
 }

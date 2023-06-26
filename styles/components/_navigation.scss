@@ -1,0 +1,11 @@
+.navigation {
+  @apply flex flex-row justify-between items-center list-none gap-10;
+
+  a {
+    @apply text-3xl cursor-pointer transition-all ease-out border-b-2 border-transparent;
+
+    &:hover {
+      @apply border-black;
+    }
+  }
+}

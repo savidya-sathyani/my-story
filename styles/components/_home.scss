@@ -1,5 +1,5 @@
 .hero {
-  @apply w-full flex flex-row mt-16;
+  @apply w-full flex flex-row mt-24;
 
   &-picture {
     @apply w-1/2  z-20;
@@ -34,7 +34,7 @@
 
 .myself {
   height: 600px;
-  @apply relative bg-green-100 m-auto flex flex-row justify-center items-center -top-96;
+  @apply relative bg-gray-100 m-auto flex flex-row justify-center items-center -top-96;
 
   &-description {
     @apply w-1/2 flex flex-col justify-center items-end;

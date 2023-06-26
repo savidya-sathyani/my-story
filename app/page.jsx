@@ -97,7 +97,7 @@ const Home = () => {
             height={100}
           />
         </div>
-        <div className="catalog-text bg-cyan-100">
+        <div className="catalog-text bg-orange-100">
           <h1>L I F E</h1>
         </div>
         <div className="catalog-image">
@@ -108,7 +108,7 @@ const Home = () => {
             height={100}
           />
         </div>
-        <div className="catalog-text bg-pink-100">
+        <div className="catalog-text bg-orange-100">
           <h1>C A R E E R</h1>
         </div>
         <div className="catalog-image">

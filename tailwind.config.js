@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
         dosis: ['Dosis', 'sans-serif'],
+        cedarville: ['Cedarville Cursive', 'sans-serif'],
       },
     },
   },
