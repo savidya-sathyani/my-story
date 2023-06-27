@@ -173,10 +173,11 @@
 }
 
 .reviews {
-  @apply relative bg-gray-100 -top-96 grid grid-cols-2 gap-y-20 gap-x-32;
+  @apply relative bg-gray-100 -top-96 grid items-center gap-36;
+  grid-template-columns: 55fr 45fr;
 
   .testimonial-container {
-    @apply p-40;
+    @apply p-32;
 
     .testimonials {
       @apply grid grid-cols-2 gap-x-32 gap-y-20;
@@ -196,12 +197,12 @@
     }
 
     span {
-      @apply block text-2xl tracking-wider uppercase font-bold mb-7;
+      @apply block text-2xl tracking-wider uppercase font-bold;
       color: #cf711f;
     }
 
     h1 {
-      @apply text-8xl mb-40 text-gray-700;
+      @apply text-8xl mb-32 text-gray-700;
     }
   }
 
@@ -209,11 +210,11 @@
     @apply grid grid-cols-3 gap-4 p-4;
 
     &-item {
-      @apply p-2 overflow-hidden;
+      @apply overflow-hidden;
     }
 
     &-img {
-      @apply block transition-all ease-out;
+      @apply block transition-all ease-out w-full;
 
       &:hover {
         transform: scale(1.1);

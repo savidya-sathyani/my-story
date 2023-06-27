@@ -170,11 +170,9 @@ const Home = () => {
         <div className="gallery">
           {gallery.map((image) => (
             <figure key={image.name} className="gallery-item">
-              <Image
+              <img
                 className="gallery-img"
                 src={`/assets/images/gallery/${image.name}`}
-                width={300}
-                height={300}
                 alt={`${image.des}`}
               />
             </figure>
