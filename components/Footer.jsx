@@ -7,7 +7,7 @@ import Navigation from './Navigation';
 const Footer = () => {
   return (
     <Fragment>
-      <hr className="relative -top-56" />
+      <hr className="relative mt-20 mb-10" />
       <footer className="footer container">
         <Navigation />
         <SocialMediaLinks />

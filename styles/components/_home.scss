@@ -1,4 +1,5 @@
 .hero {
+  height: 300px;
   @apply w-full flex flex-row mt-24;
 
   &-picture {
@@ -19,22 +20,22 @@
 }
 
 .tagline {
-  height: 500px;
+  height: 450px;
 
-  @apply relative bg-orange-100 m-auto flex flex-col justify-center items-center -top-96;
+  @apply relative bg-orange-100 m-auto flex flex-col justify-end items-center;
 
   h1 {
-    @apply z-10 text-5xl tracking-wider text-center mb-10 mt-64;
+    @apply z-10 text-5xl tracking-wider text-center mb-10;
   }
 
   p {
-    @apply z-10 text-xl tracking-wider;
+    @apply z-10 text-xl tracking-wider mb-24;
   }
 }
 
 .myself {
   height: 600px;
-  @apply relative bg-gray-100 m-auto flex flex-row justify-center items-center -top-96;
+  @apply relative bg-gray-100 m-auto flex flex-row justify-center items-center;
 
   &-description {
     @apply w-1/2 flex flex-col justify-center items-end;
@@ -143,7 +144,7 @@
 
 .catalog {
   height: 800px;
-  @apply relative grid grid-cols-3 gap-5 -top-96 my-5;
+  @apply relative grid grid-cols-3 gap-5 my-5;
 
   &-text {
     @apply relative flex flex-col justify-center items-center text-3xl text-gray-700 transition-all ease-in-out cursor-pointer;
@@ -173,7 +174,7 @@
 }
 
 .reviews {
-  @apply relative bg-gray-100 -top-96 grid items-center gap-36;
+  @apply relative bg-gray-100 grid items-center gap-36;
   grid-template-columns: 55fr 45fr;
 
   .testimonial-container {
@@ -224,7 +225,7 @@
 }
 
 .last {
-  @apply relative -top-80 flex flex-col justify-center items-center;
+  @apply relative flex flex-col justify-center items-center mt-10;
 
   &-line {
     @apply mb-5;
