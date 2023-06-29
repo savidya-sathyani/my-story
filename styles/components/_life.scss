@@ -1,0 +1,97 @@
+.life {
+  @apply flex flex-col justify-center items-center mt-40;
+
+  h2 {
+    @apply text-7xl font-bold mb-10 tracking-widest mt-6;
+  }
+
+  span {
+    @apply uppercase text-2xl text-gray-700 tracking-wider;
+  }
+
+  h1 {
+    @apply text-8xl tracking-wider mb-20;
+  }
+
+  .steps {
+    @apply w-full relative grid grid-cols-2 justify-center items-center gap-y-20;
+
+    .details {
+      @apply m-10;
+
+      span {
+        @apply font-inter text-8xl font-bold text-gray-300;
+      }
+
+      li {
+        @apply text-3xl;
+      }
+    }
+
+    .image {
+      @apply flex flex-col justify-center items-center;
+    }
+  }
+}
+
+.food {
+  @apply bg-gray-400 py-16 bg-opacity-20 flex flex-col justify-center items-center mt-32;
+
+  h2 {
+    @apply text-8xl tracking-wider mb-16;
+  }
+
+  span {
+    @apply uppercase text-2xl text-gray-700 tracking-wider;
+  }
+
+  &-gallery {
+    @apply w-full text-9xl flex flex-row justify-between items-center;
+
+    .image-line {
+      width: 150rem;
+      @apply flex flex-row items-center gap-10
+        overflow-hidden scroll-smooth;
+    }
+
+    ion-icon {
+      @apply cursor-pointer;
+    }
+  }
+}
+
+.qna {
+  @apply flex flex-col justify-center items-center mt-32;
+
+  h2 {
+    @apply text-8xl tracking-wider mb-20;
+  }
+
+  span {
+    @apply uppercase text-2xl text-gray-700 tracking-wider;
+  }
+
+  .q-panel {
+    @apply w-full flex flex-col gap-10;
+
+    .q-card {
+      @apply bg-gray-400 bg-opacity-20 p-14 rounded-xl transition-all ease-in z-10;
+
+      .question {
+        @apply flex flex-row justify-between items-center text-5xl font-thin cursor-pointer;
+      }
+
+      .answer {
+        @apply mt-14 text-3xl font-thin;
+      }
+    }
+  }
+
+  .show {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+  }
+}

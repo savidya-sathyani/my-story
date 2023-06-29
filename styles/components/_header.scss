@@ -3,9 +3,9 @@
 
   .header {
     @apply w-full flex flex-row justify-between items-center;
-  }
 
-  .nav {
-    @apply w-1/4;
+    .nav {
+      @apply w-1/4;
+    }
   }
 }

@@ -35,3 +35,54 @@ export const footerGallery = [
       'Soaking in the magnificent view of the Laxapana Waterfall, Sri Lanka',
   },
 ];
+
+export const foodGallery = [
+  {
+    name: 'hoppers.webp',
+    des: 'Hoppers',
+  },
+  {
+    name: 'kottu.jpeg',
+    des: 'Kottu',
+  },
+  {
+    name: 'milk-rice.jpeg',
+    des: 'Milk Rice',
+  },
+  {
+    name: 'pittu.jpeg',
+    des: 'Pittu',
+  },
+  {
+    name: 'pol-sambal.jpeg',
+    des: 'Pol Sambol',
+  },
+  {
+    name: 'rice-curry.webp',
+    des: 'Rice & Curry',
+  },
+  {
+    name: 'string-hoppers.jpeg',
+    des: 'String Hoppers',
+  },
+  {
+    name: 'yellow-rice.jpeg',
+    des: 'Yellow rice and Curries',
+  },
+  {
+    name: 'roti.jpeg',
+    des: 'Roti',
+  },
+  {
+    name: 'traditional.jpeg',
+    des: 'Traditional Meal',
+  },
+  {
+    name: 'sweets.jpeg',
+    des: 'New year sweets',
+  },
+  {
+    name: 'spices.jpeg',
+    des: 'Sri Lankan Spices',
+  },
+];
