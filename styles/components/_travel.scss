@@ -1,0 +1,79 @@
+.travel {
+  @apply flex flex-col justify-center text-center m-20;
+
+  h1 {
+    @apply text-8xl tracking-wider mb-10;
+  }
+
+  span {
+    @apply uppercase text-2xl text-gray-700 tracking-wider;
+  }
+
+  .map {
+    @apply flex flex-row mt-10;
+
+    &-container {
+      @apply w-2/3;
+    }
+
+    .detail-container {
+      @apply w-1/3 flex flex-col justify-center items-center bg-orange-100;
+
+      h1 {
+        @apply text-7xl;
+      }
+
+      ul {
+        @apply mt-16 flex flex-col justify-center items-center gap-10 text-5xl;
+      }
+
+      li {
+        @apply transition-all ease-in cursor-pointer;
+
+        &:hover {
+          @apply border-b-2 border-black;
+        }
+      }
+    }
+  }
+}
+
+.country {
+  @apply mt-20;
+
+  h2 {
+    @apply text-8xl font-bold mb-10 tracking-wider mt-2;
+  }
+
+  span {
+    @apply uppercase text-xl text-gray-700 tracking-wider;
+  }
+
+  &-gallery {
+    @apply grid grid-cols-4 gap-5;
+
+    .item-card {
+      @apply relative cursor-pointer;
+
+      .photo-desc {
+        @apply absolute z-10 flex flex-col justify-center items-center text-3xl text-center text-black opacity-0 w-full h-full p-10 transition-all ease-in;
+
+        left: 50%;
+        transform: translate(-50%, -100%);
+
+        &:hover {
+          @apply opacity-100;
+        }
+      }
+
+      &:after {
+        content: '';
+        @apply absolute w-full h-full top-0 left-0 bg-gray-100 opacity-0;
+
+        &:hover {
+          @apply opacity-80;
+        }
+      }
+    }
+  }
+}

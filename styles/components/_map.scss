@@ -1,0 +1,23 @@
+.country-selector {
+  display: flex;
+  margin: 0 auto;
+
+  #map {
+    [data-cc] {
+      @apply fill-orange-100;
+
+      // &:hover {
+      //   @apply cursor-pointer fill-red-400;
+      // }
+    }
+  }
+}
+
+.visited {
+  fill: #f97316 !important;
+
+  &:hover {
+    fill: greenyellow !important;
+    @apply cursor-pointer;
+  }
+}

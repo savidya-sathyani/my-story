@@ -86,3 +86,258 @@ export const foodGallery = [
     des: 'Sri Lankan Spices',
   },
 ];
+
+export const sriLanka = [
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+];
+
+export const thailand = [
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+];
+
+export const bali = [
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+];
+
+export const vietnam = [
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+];
+
+export const australia = [
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+  {
+    name: 'footer1.JPG',
+    des: 'Footer Item 1',
+    description:
+      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
+  },
+];
