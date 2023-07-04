@@ -87,257 +87,253 @@ export const foodGallery = [
   },
 ];
 
-export const sriLanka = [
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-];
-
-export const thailand = [
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-];
-
-export const bali = [
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-];
-
-export const vietnam = [
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-];
-
-export const australia = [
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-  {
-    name: 'footer1.JPG',
-    des: 'Footer Item 1',
-    description:
-      'Enjoying the most scenic train ride with my husband in Ella, Sri Lanka.',
-  },
-];
+export const countries = {
+  srilanka: [
+    {
+      name: 'image1.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image2.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image3.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image4.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image5.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image6.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image7.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image8.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image9.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image10.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image11.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image12.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image13.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image14.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image15.JPG',
+      des: 'Sri Lanka',
+    },
+    {
+      name: 'image16.JPG',
+      des: 'Sri Lanka',
+    },
+  ],
+  bali: [
+    {
+      name: 'image1.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image2.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image3.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image4.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image5.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image6.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image7.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image8.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image9.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image10.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image11.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image12.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image13.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image14.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image15.JPG',
+      des: 'Bali',
+    },
+    {
+      name: 'image16.JPG',
+      des: 'Bali',
+    },
+  ],
+  vietnam: [
+    {
+      name: 'image1.JPG',
+      des: 'Vietnam',
+    },
+    {
+      name: 'image2.JPG',
+      des: 'Vietnam',
+    },
+    {
+      name: 'image3.JPG',
+      des: 'Vietnam',
+    },
+    {
+      name: 'image4.JPG',
+      des: 'Vietnam',
+    },
+    {
+      name: 'image5.JPG',
+      des: 'Vietnam',
+    },
+    {
+      name: 'image6.JPG',
+      des: 'Vietnam',
+    },
+    {
+      name: 'image7.JPG',
+      des: 'Vietnam',
+    },
+    {
+      name: 'image8.JPG',
+      des: 'Vietnam',
+    },
+    {
+      name: 'image9.JPG',
+      des: 'Vietnam',
+    },
+    {
+      name: 'image10.JPG',
+      des: 'Vietnam',
+    },
+    {
+      name: 'image11.JPG',
+      des: 'Vietnam',
+    },
+    {
+      name: 'image12.JPG',
+      des: 'Vietnam',
+    },
+  ],
+  australia: [
+    {
+      name: 'image1.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image2.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image3.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image4.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image5.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image6.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image7.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image8.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image9.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image10.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image11.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image12.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image13.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image14.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image15.JPG',
+      des: 'Australia',
+    },
+    {
+      name: 'image16.JPG',
+      des: 'Australia',
+    },
+  ],
+};

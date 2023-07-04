@@ -1,156 +1,121 @@
 'use client';
 
+import CountryGallery from '@/components/CountryGallery';
 import Map from '@/components/Map';
-import {
-  australia,
-  bali,
-  sriLanka,
-  thailand,
-  vietnam,
-} from '@/data/get-images';
-import Image from 'next/image';
-import { Fragment, useRef } from 'react';
+
+import { Fragment, useRef, useState } from 'react';
+
+const initialCountryState = {
+  name: '',
+  id: '',
+  description: '',
+  gallery: null,
+  isActive: false,
+};
 
 const Travel = () => {
-  const sriLankaRef = useRef(null);
-  const thailandRef = useRef(null);
-  const baliRef = useRef(null);
-  const vietnamRef = useRef(null);
-  const australiaRef = useRef(null);
+  const [activeCountry, setActiveCountry] = useState(initialCountryState);
+  const [show, setShow] = useState(false);
 
-  const handleCountryScroll = (event) => {
-    const country = event.target.id;
-    switch (country) {
-      case 'srilanka':
-        return sriLankaRef.current.scrollIntoView();
-      case 'thailand':
-        return thailandRef.current.scrollIntoView();
-      case 'bali':
-        return baliRef.current.scrollIntoView();
-      case 'vietnam':
-        return vietnamRef.current.scrollIntoView();
-      case 'australia':
-        return australiaRef.current.scrollIntoView();
-      default:
-        console.log('Incorrect Link');
-    }
+  const countryRef = useRef(null);
+
+  const handleCountryClick = (event, country, description, gallery) => {
+    setActiveCountry({
+      name: country,
+      id: event.target.id,
+      description,
+      gallery,
+    });
+    setShow(true);
   };
 
   return (
     <Fragment>
-      <section className="travel">
-        <span>Places I&apos;ve visited</span>
-        <h1 className="container">Always say yes to new adventures</h1>
-        <div className="map">
-          <div className="map-container">
-            <Map handleCountryClick={handleCountryScroll} />
+      {!show && (
+        <section
+          className={activeCountry === '' ? 'travel show' : 'travel hide'}
+        >
+          <span>Places I&apos;ve visited</span>
+          <h1 className="container">Always say yes to new adventures</h1>
+          <div className="map">
+            <div className="map-container">
+              <Map handleCountryClick={handleCountryClick} />
+            </div>
+            <div className="detail-container">
+              <ul>
+                <li
+                  id="srilanka"
+                  onClick={(e) =>
+                    handleCountryClick(
+                      e,
+                      'Sri Lanka',
+                      'pearl of the Indian Ocean'
+                    )
+                  }
+                >
+                  Sri Lanka
+                </li>
+                <li
+                  id="thailand"
+                  onClick={(e) =>
+                    handleCountryClick(
+                      e,
+                      'Thailand',
+                      'a country of mountains, hills, plains and a long coastline'
+                    )
+                  }
+                >
+                  Thailand
+                </li>
+                <li
+                  id="bali"
+                  onClick={(e) =>
+                    handleCountryClick(
+                      e,
+                      'Bali, Indonesia',
+                      'truly is a magical place'
+                    )
+                  }
+                >
+                  Bali, Indonesia
+                </li>
+                <li
+                  id="vietnam"
+                  onClick={(e) =>
+                    handleCountryClick(
+                      e,
+                      'Vietnam',
+                      'A country with too much history'
+                    )
+                  }
+                >
+                  Vietnam
+                </li>
+                <li
+                  id="australia"
+                  onClick={(e) =>
+                    handleCountryClick(
+                      e,
+                      'Australia',
+                      'A place I would call home away from home'
+                    )
+                  }
+                >
+                  Australia
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="detail-container">
-            <ul>
-              <li id="srilanka" onClick={(e) => handleCountryScroll(e)}>
-                Sri Lanka
-              </li>
-              <li id="thailand" onClick={(e) => handleCountryScroll(e)}>
-                Thailand
-              </li>
-              <li id="bali" onClick={(e) => handleCountryScroll(e)}>
-                Bali, Indonesia
-              </li>
-              <li id="vietnam" onClick={(e) => handleCountryScroll(e)}>
-                Vietnam
-              </li>
-              <li id="australia" onClick={(e) => handleCountryScroll(e)}>
-                Australia
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section ref={sriLankaRef} className="country container">
-        <span>Pearl of the Indian Ocean</span>
-        <h2>Sri Lanka</h2>
-        <div className="country-gallery">
-          {sriLanka.map((image) => (
-            <figure key={image.name} className="item-card">
-              <Image
-                src={`/assets/images/countries/sri-lanka/${image.name}`}
-                width={400}
-                height={400}
-                alt={`${image.des}`}
-              />
-              <p className="photo-desc">{image.description}</p>
-            </figure>
-          ))}
-        </div>
-      </section>
-      <section ref={thailandRef} className="country container">
-        <span>a country of mountains, hills, plains and a long coastline</span>
-        <h2>Thailand</h2>
-        <div className="country-gallery">
-          {thailand.map((image) => (
-            <figure key={image.name} className="item-card">
-              <Image
-                src={`/assets/images/countries/thailand/${image.name}`}
-                width={400}
-                height={400}
-                alt={`${image.des}`}
-              />
-              <p className="photo-desc">{image.description}</p>
-            </figure>
-          ))}
-        </div>
-      </section>
-      <section ref={baliRef} className="country container">
-        <span>truly is a magical place</span>
-        <h2>Bali, Indonesia</h2>
-        <div className="country-gallery">
-          {bali.map((image) => (
-            <figure key={image.name} className="item-card">
-              <Image
-                src={`/assets/images/countries/bali/${image.name}`}
-                width={400}
-                height={400}
-                alt={`${image.des}`}
-              />
-              <p className="photo-desc">{image.description}</p>
-            </figure>
-          ))}
-        </div>
-      </section>
-      <section ref={vietnamRef} className="country container">
-        <span>A country with too much history</span>
-        <h2>Vietnam</h2>
-        <div className="country-gallery">
-          {vietnam.map((image) => (
-            <figure key={image.name} className="item-card">
-              <Image
-                src={`/assets/images/countries/vietnam/${image.name}`}
-                width={400}
-                height={400}
-                alt={`${image.des}`}
-              />
-              <p className="photo-desc">{image.description}</p>
-            </figure>
-          ))}
-        </div>
-      </section>
-      <section ref={australiaRef} className="country container">
-        <span>A place I would call home away from home</span>
-        <h2>Australia</h2>
-        <div className="country-gallery">
-          {australia.map((image) => (
-            <figure key={image.name} className="item-card">
-              <Image
-                src={`/assets/images/countries/australia/${image.name}`}
-                width={400}
-                height={400}
-                alt={`${image.des}`}
-              />
-              <p className="photo-desc">{image.description}</p>
-            </figure>
-          ))}
-        </div>
-      </section>
+        </section>
+      )}
+
+      {show && (
+        <CountryGallery
+          ref={countryRef}
+          {...activeCountry}
+          handleShowHide={setShow}
+        />
+      )}
     </Fragment>
   );
 };

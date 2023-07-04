@@ -1,0 +1,58 @@
+.country {
+  @apply grid mt-20 text-center justify-start items-start;
+
+  h2 {
+    @apply text-8xl font-bold mb-10 tracking-wider mt-2;
+  }
+
+  span {
+    @apply uppercase text-xl text-gray-700 tracking-wider;
+  }
+
+  ion-icon {
+    @apply text-7xl cursor-pointer;
+  }
+
+  &-gallery {
+    @apply mt-20;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    transition: all 0.3s ease(gravity);
+    border-radius: 10px;
+    padding: 0.25em;
+    cursor: zoom-in;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      transition: all 0.3s/2 ease(downhill);
+      position: relative;
+      box-shadow: 0 0 0 #0000;
+      opacity: 0.67;
+      filter: sepia(80%) hue-rotate(180deg);
+
+      &:first-child {
+        border-radius: 10px 0 0 10px;
+      }
+      &:last-child {
+        border-radius: 0 10px 10px 0;
+      }
+
+      &:hover {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        z-index: 1;
+        box-shadow: 1em 1em 1em #0004;
+        transition: all 0.3s ease(downhill);
+        filter: sepia(0%) hue-rotate(0deg);
+        border-radius: 5px;
+        transform: scale(1.2);
+      }
+    }
+  }
+}
