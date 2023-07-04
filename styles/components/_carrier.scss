@@ -1,0 +1,59 @@
+.carrier-container {
+  .carrier-bg {
+    @apply mt-20 relative;
+
+    &:before {
+      @apply absolute h-full bg-black bg-opacity-30;
+
+      content: '';
+      width: 2px;
+      left: 50%;
+    }
+
+    .timeline-element {
+      @apply grid grid-cols-2 m-3;
+
+      .left-card {
+        @apply flex flex-col items-end my-16 mx-32;
+      }
+
+      .right-card {
+        @apply flex flex-col items-start my-16 mx-32;
+      }
+
+      .left-date {
+        @apply flex flex-row justify-end items-center my-16 mx-32;
+      }
+
+      .right-date {
+        @apply flex flex-row justify-start items-center my-16 mx-32;
+      }
+
+      .card {
+        @apply shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] p-10;
+
+        h5 {
+          @apply text-4xl tracking-wide font-semibold;
+        }
+
+        li {
+          @apply text-2xl mt-2;
+        }
+
+        p {
+          @apply text-xl mt-5;
+        }
+      }
+
+      .icon {
+        @apply absolute rounded-full bg-white p-5  shadow-[0_8px_30px_rgb(0,0,0,0.12)] overflow-hidden;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .date {
+        @apply text-2xl text-gray-500  p-5;
+      }
+    }
+  }
+}
