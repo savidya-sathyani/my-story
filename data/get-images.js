@@ -10,6 +10,24 @@ export const gallery = [
   { name: 'gallery9.JPG', des: 'Gallery Item 9' },
 ];
 
+export const me = [
+  { name: 'me1.JPG', des: 'Gallery Item 1' },
+  { name: 'me2.JPG', des: 'Gallery Item 2' },
+  { name: 'me3.JPG', des: 'Gallery Item 3' },
+  { name: 'me4.JPG', des: 'Gallery Item 4' },
+  { name: 'me5.JPG', des: 'Gallery Item 5' },
+  { name: 'me6.JPG', des: 'Gallery Item 6' },
+];
+
+export const fam = [
+  { name: 'fam1.JPG', des: 'Gallery Item 1' },
+  { name: 'fam2.JPG', des: 'Gallery Item 2' },
+  { name: 'fam3.JPG', des: 'Gallery Item 3' },
+  { name: 'fam4.JPG', des: 'Gallery Item 4' },
+  { name: 'fam5.JPG', des: 'Gallery Item 5' },
+  { name: 'fam6.JPG', des: 'Gallery Item 6' },
+];
+
 export const footerGallery = [
   {
     name: 'footer1.JPG',

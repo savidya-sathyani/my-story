@@ -57,13 +57,13 @@ const Travel = () => {
                 </li>
                 <li
                   id="thailand"
-                  onClick={(e) =>
-                    handleCountryClick(
-                      e,
-                      'Thailand',
-                      'a country of mountains, hills, plains and a long coastline'
-                    )
-                  }
+                  // onClick={(e) =>
+                  //   handleCountryClick(
+                  //     e,
+                  //     'Thailand',
+                  //     'a country of mountains, hills, plains and a long coastline'
+                  //   )
+                  // }
                 >
                   Thailand
                 </li>

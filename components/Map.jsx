@@ -97,13 +97,13 @@ const Map = ({ handleCountryClick }) => {
           data-cc="th"
           id="thailand"
           className="visited"
-          onClick={(e) =>
-            handleCountryClick(
-              e,
-              'Thailand',
-              'a country of mountains, hills, plains and a long coastline'
-            )
-          }
+          // onClick={(e) =>
+          //   handleCountryClick(
+          //     e,
+          //     'Thailand',
+          //     'a country of mountains, hills, plains and a long coastline'
+          //   )
+          // }
         ></path>
         <g data-cc="ru">
           <path d="M739.76,12.8l2.69,2.26l1.91-0.79l0.56-3.17L741,8.39l-2.58,1.7l-6.28,0.57v2.83l-6.62,0.11v4.63l7.74,5.76l2.02-1.47l-0.45-4.07l4.94-1.24l-1.01-1.92l-1.79-1.81L739.76,12.8L739.76,12.8z"></path>

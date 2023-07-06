@@ -77,16 +77,18 @@ const Home = () => {
           <h2>A BIT ABOUT MYSELF</h2>
           <h1>HI, I&apos;M SAVIDYA</h1>
           <p>
-            I&apos;m an unabashed aficionado of mountains, beaches, and all
-            things nature! My heart leaps with joy at the mere thought of
-            immersing myself in the awe-inspiring grandeur of towering peaks and
-            the soothing embrace of sandy shores.
+            I absolutely adore mountains, beaches, and everything nature has to
+            offer! The very idea of immersing myself in the breathtaking
+            splendor of towering peaks and the serene comfort of sandy shores
+            fills my heart with pure bliss.
           </p>
           <br />
           <p>
-            Picture this: as the sun gently sets, casting its golden glow, I
-            find myself reclining in a cozy nook, book in hand, and a veritable
-            feast sprawled out before me. Let the adventure begin!
+            Now, imagine this enchanting scene: as the sun gracefully sets,
+            casting its golden rays, I find myself nestled in a snug corner,
+            holding a captivating book, with a delightful feast spread out
+            before me. It&apos;s the perfect beginning for a thrilling
+            adventure.
           </p>
           <button className="shrink-border">CLICK FOR MORE</button>
         </div>

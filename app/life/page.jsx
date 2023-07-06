@@ -1,6 +1,6 @@
 'use client';
 
-import { foodGallery } from '@/data/get-images';
+import { foodGallery, me, fam } from '@/data/get-images';
 import { qna } from '@/data/get-qna';
 import Image from 'next/image';
 import { Fragment, useRef, useState } from 'react';
@@ -19,43 +19,53 @@ const Life = () => {
         <span>From the beginning</span>
         <h1>I&apos;ve had the best life ever</h1>
         <div className="steps">
-          <div className="details">
+          <div className="details left-details">
             <span>01</span>
             <h2>Childhood</h2>
-            <ul className="dec">
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            </ul>
+            <p>
+              I was born in a cozy little town in Anuradhapura, Sri Lanka. It
+              was a place where simplicity thrived and made everything
+              beautiful.
+            </p>
+            <p>
+              Right from the start, I was a small but energetic and happy child,
+              always enjoying life to the max. Every day was like a colorful
+              painting, giving me a chance to dive into the exciting world
+              around me and delight in all its endless wonders.
+            </p>
           </div>
-          <div className="image">
-            <Image
-              src={'/assets/images/home2.jpg'}
-              width={400}
-              height={100}
-              alt="Image"
-            />
+          <div className="images right-image">
+            {me.map((item) => (
+              <Image
+                key={item.name}
+                src={`/assets/images/life/${item.name}`}
+                width={300}
+                height={300}
+                alt={item.des}
+              />
+            ))}
           </div>
-          <div className="image">
-            <Image
-              src={'/assets/images/home2.jpg'}
-              width={400}
-              height={100}
-              alt="Image"
-            />
+          <div className="images left-image">
+            {fam.map((item) => (
+              <Image
+                key={item.name}
+                src={`/assets/images/life/${item.name}`}
+                width={300}
+                height={300}
+                alt={item.des}
+              />
+            ))}
           </div>
-          <div className="details">
-            <span>01</span>
-            <h2>Childhood</h2>
-            <ul className="dec">
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            </ul>
+          <div className="details right-details flex flex-col justify-center items-end text-right">
+            <span>02</span>
+            <h2>Family</h2>
+            <p>
+              In my family, I have my mom, dad, and three adorable little
+              brothers. I feel incredibly fortunate to have such a large and
+              wonderful family who is always by my side, supporting and caring
+              for me. Their love and presence fill my life with joy and make
+              every day truly special.
+            </p>
           </div>
         </div>
       </section>
