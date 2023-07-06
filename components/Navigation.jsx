@@ -2,7 +2,7 @@
 
 import { NavigationData } from '@/context/NavigationContext';
 import Link from 'next/link';
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 
 const Navigation = () => {
   const { active, setActive } = useContext(NavigationData);
