@@ -9,9 +9,9 @@ const Career = () => {
         <div className="timeline-element">
           <div class="left-card">
             <div className="card">
-              <h5>- Ceylinco Life Insurance</h5>
+              <h5>Ceylinco Life Insurance</h5>
               <ul>
-                <li>Trainee Software Engineer</li>
+                <li>- Trainee Software Engineer</li>
               </ul>
               <p>
                 I&apos;ve completed my six months training when I was already in
