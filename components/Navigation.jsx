@@ -5,11 +5,7 @@ import Link from 'next/link';
 import { useContext } from 'react';
 
 const Navigation = () => {
-  const { active, setActive } = useContext(NavigationData);
-
-  const handleClick = (event) => {
-    setActive(event.target.id);
-  };
+  const { active } = useContext(NavigationData);
 
   return (
     <nav className="navigation">
@@ -17,7 +13,6 @@ const Navigation = () => {
         id="home"
         href="/"
         className={active === 'home' ? 's-link-active' : ''}
-        onClick={(e) => handleClick(e)}
       >
         Home
       </Link>
@@ -25,7 +20,6 @@ const Navigation = () => {
         id="life"
         href="/life"
         className={active === 'life' ? 's-link-active' : ''}
-        onClick={(e) => handleClick(e)}
       >
         Life
       </Link>
@@ -33,7 +27,6 @@ const Navigation = () => {
         id="career"
         href="/career"
         className={active === 'career' ? 's-link-active' : ''}
-        onClick={(e) => handleClick(e)}
       >
         Career
       </Link>
@@ -41,7 +34,6 @@ const Navigation = () => {
         id="travel"
         href="/travel"
         className={active === 'travel' ? 's-link-active' : ''}
-        onClick={(e) => handleClick(e)}
       >
         Travel
       </Link>

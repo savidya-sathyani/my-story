@@ -7,7 +7,7 @@ const Career = () => {
     <section className="carrier-container container">
       <div className="carrier-bg">
         <div className="timeline-element">
-          <div class="left-card">
+          <div className="left-card">
             <div className="card">
               <h5>Ceylinco Life Insurance</h5>
               <ul>
@@ -21,7 +21,7 @@ const Career = () => {
               </p>
             </div>
           </div>
-          <div class="right-date">
+          <div className="right-date">
             <div className="icon">
               <Image
                 src={'/assets/icons/ceylinco.webp'}
@@ -34,7 +34,7 @@ const Career = () => {
           </div>
         </div>
         <div className="timeline-element">
-          <div class="left-date">
+          <div className="left-date">
             <div className="icon">
               <Image
                 src={'/assets/icons/pearson.png'}
@@ -45,7 +45,7 @@ const Career = () => {
             </div>
             <span className="date">September 2017</span>
           </div>
-          <div class="right-card">
+          <div className="right-card">
             <div className="card">
               <h5>Pearson Lanka</h5>
               <ul>
@@ -62,7 +62,7 @@ const Career = () => {
           </div>
         </div>
         <div className="timeline-element">
-          <div class="left-card">
+          <div className="left-card">
             <div className="card">
               <h5>Wiley Global Technology</h5>
               <ul>
@@ -78,7 +78,7 @@ const Career = () => {
               </p>
             </div>
           </div>
-          <div class="right-date">
+          <div className="right-date">
             <div className="icon">
               <Image
                 src={'/assets/icons/wiley.webp'}
@@ -91,7 +91,7 @@ const Career = () => {
           </div>
         </div>
         <div className="timeline-element">
-          <div class="left-date">
+          <div className="left-date">
             <div className="icon">
               <Image
                 src={'/assets/icons/skillfield.png'}
@@ -102,7 +102,7 @@ const Career = () => {
             </div>
             <span className="date">March 2023</span>
           </div>
-          <div class="right-card">
+          <div className="right-card">
             <div className="card">
               <h5>Skillfield</h5>
               <ul>

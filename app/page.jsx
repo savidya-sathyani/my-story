@@ -14,7 +14,6 @@ const Home = () => {
   const handleClick = (e) => {
     const id = e.target.id;
     router.push(`/${id}`);
-    setActive(id);
   };
 
   return (
